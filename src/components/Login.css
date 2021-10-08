@@ -1,0 +1,33 @@
+.formContainer{
+    margin-left: auto;
+    margin-right: auto;
+}
+.mainForm{
+    background-color: rgb(224, 216, 216);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+label{
+    display: inline-block;
+    width: 70px;
+    text-align: left;
+}
+.form-group{
+    padding: 25px;
+    height: 25px;
+}
+.error-group{
+    height: 25px;
+    padding: 25px;
+}
+.error-group p{    
+    font-size: xx-small;
+    text-align: right;
+    color: red;
+}
+.btn{
+    text-align: center;
+    padding-bottom: 20px;
+}
